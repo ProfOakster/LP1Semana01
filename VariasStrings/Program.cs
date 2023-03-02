@@ -9,6 +9,9 @@ namespace VariasStrings
         {
             Console.OutputEncoding = Encoding.UTF8;
 
+            double xx = 0.12345;
+            int ii = 18;
+
             string steamed="Oh no\u274C, that isn't smoke.";
             string hams = "It's steam\u2705, from the Steamed Hams\u2122 we're having.";
             string aurora = "In this time of year\nIn this time of day";
@@ -41,6 +44,13 @@ namespace VariasStrings
                 "CL1 {0} target {1}, CL2 {1} target {0}", "Cir", "Dante"
                 );
             
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p1}");
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c2}");
+
+
+
         }
     }
 }
