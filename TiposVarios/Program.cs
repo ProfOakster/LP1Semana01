@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace TiposVarios
 {
@@ -7,6 +8,8 @@ namespace TiposVarios
         
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             sbyte neg_smallest = -1;
             short neg_small = -1337;
             int neg_average = -1984;
@@ -15,6 +18,10 @@ namespace TiposVarios
             ushort small = 1337;
             uint average = 1984U;
             ulong big = 5318008UL;
+
+            char reverseR = '\u1D19';
+            char deceased = '\u2620';
+
 
             Console.WriteLine(neg_smallest);
             Console.WriteLine(neg_small);
@@ -25,6 +32,8 @@ namespace TiposVarios
             Console.WriteLine(average);
             Console.WriteLine(big);
 
+            Console.WriteLine(reverseR);
+            Console.WriteLine(deceased);
 
 
 
