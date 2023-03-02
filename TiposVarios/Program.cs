@@ -9,7 +9,7 @@ namespace TiposVarios
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            
+
             sbyte neg_smallest = -1;
             short neg_small = -1337;
             int neg_average = -1984;
@@ -21,6 +21,11 @@ namespace TiposVarios
 
             char reverseR = '\u1D19';
             char deceased = '\u2620';
+
+            float scientific = 3.1415F;
+            double scientificer = 6.6784e-11;
+            decimal scientificest = 6.022e23M;
+
 
 
             Console.WriteLine(neg_smallest);
@@ -34,6 +39,12 @@ namespace TiposVarios
 
             Console.WriteLine(reverseR);
             Console.WriteLine(deceased);
+
+            Console.WriteLine(scientific);
+            Console.WriteLine(scientificer);
+            Console.WriteLine(scientificest);
+
+            
 
 
 
