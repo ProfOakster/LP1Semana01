@@ -26,7 +26,8 @@ namespace TiposVarios
             double scientificer = 6.6784e-11;
             decimal scientificest = 6.022e23M;
 
-
+            bool yeah = true;
+            bool nah = false;
 
             Console.WriteLine(neg_smallest);
             Console.WriteLine(neg_small);
@@ -44,7 +45,8 @@ namespace TiposVarios
             Console.WriteLine(scientificer);
             Console.WriteLine(scientificest);
 
-            
+            Console.WriteLine(yeah);
+            Console.WriteLine(nah);
 
 
 
